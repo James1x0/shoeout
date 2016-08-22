@@ -1,0 +1,42 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.aligned.text {
+  &.left { text-align: left }
+  &.right { text-align: right }
+  &.center { text-align: center }
+}
+
+.text.small {
+  font-size: 0.7em;
+
+  &.very {
+    font-size: 0.5em;
+  }
+}
+
+.floated {
+  &.right { float: right }
+  &.left { float: left }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.monospaced {
+  font-family: @fontNameMonospaced;
+}
+
+.introjs-fixParent {
+  position: inherit !important;
+  transform: inherit !important;
+}

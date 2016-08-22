@@ -1,0 +1,10 @@
+/*******************************
+        User Overrides
+*******************************/
+.company-logo-dropdown {
+  background: none !important;
+}
+
+.ui.dropdown:not(.button) > .default.text, .ui.default.dropdown:not(.button) > .text {
+  color: @shoeout-grey !important;
+}
